@@ -1,9 +1,14 @@
 asgiref==3.6.0
 autopep8==2.0.2
+colorama==0.4.6
+dj-database-url==2.0.0
 Django==4.1.3
+Pillow==10.0.0
+psycopg2-binary==2.9.6
 pycodestyle==2.10.0
+pypng==0.20220715.0
+qrcode==7.4.2
 sqlparse==0.4.4
 tomli==2.0.1
-psycopg2-binary
-qrcode 
-Pillow
+typing_extensions==4.7.1
+tzdata==2023.3
