@@ -33,8 +33,8 @@
                                               <tr>
                                                 
                                                 <th scope="col">รหัส</th>
-                                                <th scope="col">ชื่อ</th>
-                                                <th scope="col">นามสกุล</th>
+                                                <th scope="col">ชื่อ-สกุล</th>
+                                                
                                                 <th scope="col">สาขา</th>
                                               </tr>
                                             </thead>
@@ -42,8 +42,8 @@
                                                 {% for getdata_ats in getdata_at %}
                                               <tr>
                                                 <td><font size="2"> {{getdata_ats.add_Id_studen}}</font></td>
-                                                <td><font size="2"> {{getdata_ats.add_f_name}}</font></td>
-                                                <td><font size="2"> {{getdata_ats.add_l_name}}</font></td>
+                                                <td><font size="2"> {{getdata_ats.add_f_name}} {{getdata_ats.add_l_name}}</font></td>
+                                                
                                                 <td><font size="2">{{getdata_ats.add_fieldstudy}}</font></td>
                                               </tr>
                                              
